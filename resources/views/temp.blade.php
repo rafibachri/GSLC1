@@ -9,6 +9,12 @@
     <title>@yield('title')</title>
 </head>
 <body>
+    <style>
+        body{
+            background-image: url('https://wallpapercave.com/wp/wp11369928.png');
+            background-size: cover;
+        }
+    </style>
     @yield('content')
 </body>
 </html>
